@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "Email_Ticket_Fetcher": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

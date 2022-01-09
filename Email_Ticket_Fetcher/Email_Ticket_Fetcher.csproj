@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-Email_Ticket_Fetcher-078087F2-971B-4D32-A813-F93E70FF2C66</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="1.16.1" />
+    <PackageReference Include="Microsoft.AspNet.SignalR" Version="2.4.2" />
+    <PackageReference Include="Microsoft.AspNet.SignalR.Core" Version="2.4.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="3.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.19" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="3.1.0" />
+    <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Data.Framework.DataAccess">
+      <HintPath>..\..\..\..\Downloads\Data.Framework.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="DataAccess.Provider.Dapper">
+      <HintPath>..\..\..\..\Downloads\DataAccess.Provider.Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore">
+      <HintPath>..\..\USSD_Consent_Debit_Service\USSD_Consent_Debit_Service\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog">
+      <HintPath>..\..\..\..\Downloads\NLog.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
